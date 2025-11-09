@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mathematics tutoring, physics lessons, improve your academic performance with personalized tutoring in English and Science subjects" />
+    <meta name="author" content="Scholar Adesanya Ayomide Precious" />
+    <title>The Formidable Tutoring Community</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to The Formidable Tutoring Community</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- ======================
+             Part 1: Animated About Section
+             (CSS transitions + keyframes)
+             ====================== -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>The Formidable Tutoring Community is a platform where interested and dedicated students engage with seasoned tutors to tutor them in English and other key Science Courses such as Mathematics, Physics, Chemistry, Biology, Microbiology</p>
+
+            <!-- Triggered animation (professional button) -->
+            <button id="animateBtn" class="action-btn" aria-pressed="false">Animate the logo</button>
+
+            <!-- Visual element that is animated by CSS (and triggered by JS) -->
+            <div id="animatedLogo" class="box" aria-hidden="true" title="Animated box"></div>
+        </section>
+
+        <!-- ======================
+             Part 2: Services & Functions
+             (functions that accept parameters and return values)
+             ====================== -->
+        <section id="services">
+            <h2>Services Offered</h2>
+
+            <article class="highlight">
+                <h3>Personalized Tutoring Sessions</h3>
+                <p>We offer one-on-one tutoring sessions that ensure each student's needs are met, facilitating personalized attention and support.</p>
+            </article>
+
+            <article class="highlight">
+                <h3>Group Study Sessions</h3>
+                <p>The Formidable study sessions encourage collaborative learning, allowing students to benefit from shared knowledge and different engagement.</p>
+            </article>
+
+            <article class="highlight">
+                <h3>Online Resources</h3>
+                <p>Students have access to a wide range of online resources, including video tutorials, practice exercises, and study guides to enhance learning.</p>
+            </article>
+
+            <article class="highlight">
+                <h3>Regular Assessments and Feedback</h3>
+                <p>We conduct regular assessments to track progress and identify areas for improvement, and we also give room for Feedback for better improvement.</p>
+            </article>
+
+            <!-- Small professional calculator UI -->
+            <div class="calculator">
+                <h3>Calculate Area (rectangle)</h3>
+                <label for="width">Width</label>
+                <input id="width" type="number" placeholder="e.g. 5" step="any" aria-label="width" />
+                <label for="height">Height</label>
+                <input id="height" type="number" placeholder="e.g. 10" step="any" aria-label="height" />
+                <button id="calcBtn" class="action-btn">Calculate Area</button>
+                <p id="calcResult" class="result" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <!-- ======================
+             Part 3: Contact Section (JS + CSS integration example)
+             ====================== -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to join our community, please reach out to us:</p>
+            <ul>
+                <li>Email: <a href="mailto:ayomideadesanya37@gmail.com">ayomideadesanya37@gmail.com</a></li>
+                <li>Phone Number: <a href="tel:+2348169132909">+2348169132909</a></li>
+            </ul>
+
+            <!-- A small control to start/stop the ongoing float animation -->
+            <div class="controls">
+                <button id="toggleFloat" class="action-btn">Pause Floating</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tutor Adesanya Ayomide Precious. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
